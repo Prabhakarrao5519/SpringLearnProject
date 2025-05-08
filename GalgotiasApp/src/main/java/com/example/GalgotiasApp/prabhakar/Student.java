@@ -13,9 +13,9 @@ public class Student {
     // Getter and Setter for id
 
 
-    // public Student(){
-    //     System.out.println("Constructor is created....");
-    // }
+    public Student(){
+        System.out.println("Constructor is created....");
+    }
 
     public Student(int id,String name, int marks){
         this.id=id;
