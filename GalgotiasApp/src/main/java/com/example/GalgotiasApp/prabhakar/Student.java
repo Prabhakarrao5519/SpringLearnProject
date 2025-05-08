@@ -17,11 +17,11 @@ public class Student {
     //     System.out.println("Constructor is created....");
     // }
 
-    // public Student(int id,String name, int marks){
-    //     this.id=id;
-    //     this.name=name;
-    //     this.marks=marks;
-    // }
+    public Student(int id,String name, int marks){
+        this.id=id;
+        this.name=name;
+        this.marks=marks;
+    }
     public int getId() {
         return id;
     }
